@@ -1,0 +1,15 @@
+:root {
+    --cor-de-fundo: #EBECEE;
+    --cor-de-fundo-header: #FFFFFF;
+    --cor-destaque-menu-hamburguer: #EB9B00;
+    --cor-degrade-menu-hamburguer: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins", sans-serif;
+    --cor-primaria: #FFFFFF;
+    --cor-secundaria: #EB9B00;
+    --cor-terciaria: #002f52;
+    --cor-destaque: #000000;
+    --cor-link-footer: #474646;
+    --cor-titulo-footer: #858585;
+    --fonte-secundaria: "Josefin Sans", sans-serif;
+    
+}

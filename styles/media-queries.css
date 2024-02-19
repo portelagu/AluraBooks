@@ -1,0 +1,243 @@
+@media screen and (min-width: 1024px) {
+
+    .container__titulo,
+    .container__titulo--negrito {
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+    }
+
+    .container__titulo {
+        font-weight: 400;
+        display: block;
+    }
+
+    .container__titulo--negrito {
+        font-weight: 700;
+    }
+
+    .opcoes {
+        display: flex;
+    }
+
+    .opcoes__item {
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .opcoes__link {
+        text-decoration: none;
+        color: var(--cor-destaque);
+    }
+
+    .container__imagem-transparente {
+        display: none;
+    }
+
+    .cabecalho__menu-hamburguer {
+        display: none;
+    }
+
+    .logo__padrao {
+        padding: 1em;
+    }
+
+    .opcoes__botao:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+
+        .opcoes__botao {
+            display: none;
+        }
+
+        .opcoes__botao:checked ~.opcoes__rotulo > .opcoes__item {
+            background: var(--cor-degrade-menu-hamburguer);
+            color: var(--cor-primaria);
+        }
+
+        .opcoes__item {
+            padding: 2em 1em;
+        }
+
+        
+
+        .banner__titulo {
+            font-size: 36px;
+        }
+
+        .banner_pesquisa {
+            width: 50%;
+        }
+
+        .banner_pesquisa::placeholder {
+            background-position: 7em;
+        }
+        
+        .carrossel__titulo {
+            font-size: 26px;
+        }
+
+        .swiper-pagination {
+            margin: 2em 0 3em 0;
+        }
+
+        .swiper {
+            width: 60%;
+        }
+
+        .swiper-button-prev, .swiper-button-next {
+            display: block;
+            top: 60%;
+        }
+
+        .card {
+            width: 40%;
+            margin: 2em auto;
+        }
+
+        .topicos__titulo {
+            font-size: 24px;
+        }
+
+        .topicos__link {
+            font-size: 24px;
+        }
+
+        .topicos__item {
+            margin: 2.5em 1em;
+        }
+
+        .contato {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contato__email {
+            width: 30%;
+        }
+
+        .contato__descricao {
+            margin-right: 1em;
+            width: 30%;
+        }
+
+        .contato__titulo {
+            font-size: 24px;
+        }
+
+        .lista-rodape {
+            display: block;
+        }
+
+        .rodape {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .lista-rodape__item {
+            display: flex;
+            align-items: center;
+            margin: 0.6em 0;
+        }
+
+        .lista-rodape__link {
+            color: var(--cor-link-footer);
+            text-decoration: none;
+            margin-left: 0.6em;
+            
+        }
+
+        .lista-rodape__titulo {
+            text-transform: uppercase;
+            color: var(--cor-titulo-footer);
+            font-size: 14px;
+        }
+
+        .rodape__titulo {
+            font-size: 24px;
+        }
+    }
+
+    @media screen and (min-width: 1728px) {
+      
+        .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--cor-destaque);
+       }
+
+       .cabecalho {
+        padding: 0 2em;
+       }
+
+       .opcoes {
+        margin-right: auto;
+       }
+
+       .container__texto {
+        display: block;
+    }
+
+    .banner_pesquisa {
+        width: 35%;
+    }
+
+    .banner_pesquisa::placeholder {
+        background-position: 12em;
+    }
+
+    .banner {
+        padding: 6em 0;
+    }
+
+    .carrossel__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 3em;
+    }
+
+    .descricao {
+        margin-right: 2em;
+    }
+
+    .topicos {
+        padding: 3em 25vw;
+    }
+
+    .contato {
+        padding: 3em 20vw;
+    }
+
+    .lista-rodape {
+        border-left: 1px solid var(--cor-titulo-footer);
+        padding-left: 1em;
+    }
+
+    .rodape {
+    padding: 3em 0;
+    }
+
+    }

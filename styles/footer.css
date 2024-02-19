@@ -1,0 +1,12 @@
+hr {
+    margin: 0;
+}
+
+.rodape {
+    background-color: var(--cor-primaria);
+    padding: 1em;
+}
+
+.lista-rodape {
+    display: none;
+}
